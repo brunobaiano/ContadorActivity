@@ -17,10 +17,12 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".service.ContadorService">
-
+        <service android:name=".service.ContadorService" >
         </service>
-
+        <service
+            android:name=".service.ContadorServiceIntent"
+            android:exported="false" >
+        </service>
     </application>
 
 </manifest>
